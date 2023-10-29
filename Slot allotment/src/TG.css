@@ -1,0 +1,143 @@
+body{
+  background-color: goldenrod;
+}
+
+.header {
+  text-align: left;
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  margin-top: auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
+.nav-links a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: underline double;
+  margin-left: 30px;
+}
+
+.nav-links a:hover{
+  background-color: #ff1919;
+}
+
+img {
+  width: 160px; 
+  height: 60px; 
+}
+
+.class-timetable {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 1200px;
+  background-color: aliceblue;
+}
+
+.dropdowns:hover {
+  background-color: greenyellow;
+}
+
+.timetable {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: center;
+}
+
+.timetable th {
+  background-color: aliceblue;
+}
+
+.timetable td {
+  font-weight: bold;
+}
+
+.courses {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.courses th,
+.courses td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.courses th {
+  background-color: aliceblue;
+}
+
+.courses td {
+  font-weight: bold;
+}
+
+.generate-pdf {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.generate-pdf:hover {
+  background-color: #003b7b;
+}
+/* TG.css */
+
+.faculty-timetable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.faculty-timetable th, .faculty-timetable td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.faculty-timetable th {
+  background-color: #f2f2f2;
+}
+
+.faculty-timetable td {
+  font-weight: bold;
+}
+
+.faculty-timetable h2 {
+  margin-top: 20px;
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+.button-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
