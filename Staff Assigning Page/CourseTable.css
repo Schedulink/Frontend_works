@@ -1,0 +1,112 @@
+body{
+  background-color: goldenrod;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  text-align: left;
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  margin-top: auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
+.nav-links a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: underline double;
+  margin-left: 30px;
+}
+
+.nav-links a:hover{
+  background-color: #ff1919;
+}
+
+img {
+  width: 160px; 
+  height: 60px; 
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: space-between;
+  margin-top:auto ;
+}
+
+.dropdown {
+  width: 250px;
+  padding:15px;
+}
+
+.dropdowns:hover {
+  background-color: black;
+}
+.dropdown:hover {
+  background-color: lightskyblue;
+}
+
+.table-container {
+  background-color: aliceblue;
+  text-align: center;
+  margin-top: auto;
+}
+
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.course-table th,
+.course-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.staff-dropdown,
+.department-dropdown {
+  background-color: white;
+  width: 120px;
+  margin-top: 5px;
+  height: 25px;
+}
+.staff-dropdown:hover {
+  background-color: lightgreen;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.content {
+  flex-grow: 1; 
+}
+
+.submit {
+  background-color: red;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.submit:hover {
+  background-color: black;
+}
