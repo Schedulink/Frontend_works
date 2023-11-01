@@ -1,0 +1,111 @@
+.header {
+    text-align: left;
+    padding: 10px;
+    background-color: #000000;
+    color: #c10404;
+    margin-top: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+  }
+  
+  .nav-links a {
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: underline double;
+    margin-left: 10px;
+    margin-top: auto;
+  }
+  
+  .nav-links a:hover {
+    background-color: #c31515bd;
+  }
+  
+  img {
+    width: 160px;
+    height: 70px;
+  }
+  
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px); 
+    animation: backgroundFade 3s ease infinite alternate;
+  }
+  
+  @keyframes backgroundFade {
+    0% {
+      background-color: #ffffff;
+    }
+    100% {
+      background-color: rgb(0, 0, 0);
+    }
+  }
+  
+  .animation {
+    text-align: center;
+  }
+  
+  .schedulink {
+    font-size: 150px;
+    color: #b50000;
+    animation: bounce 2s ease infinite;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #00ff26, #00ffcc); /* Gradient background */
+    color: #fff; /* Text color for better contrast */
+  }
+  
+  .get-started {
+    font-size: 36px;
+    color: #c10404;
+    animation: pulse 2s ease infinite;
+  }
+  
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+
+  .get-started-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #910000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .get-started-button:hover {
+    background-color: #ff3636; /* Darker shade on hover */
+  }
+  
