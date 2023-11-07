@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(98, 255, 252);
+  }
+
+ .header {
+    text-align: left;
+    padding: 10px;
+    background-color: #000000;
+    color: #c10404;
+    margin-top: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+  }
+  
+  .nav-links a {
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: underline double;
+    margin-left: 10px;
+    margin-top: auto;
+  }
+  
+  .nav-links a:hover{
+    background-color: #c31515bd;
+  }
+  
+  img {
+    width: 160px; 
+    height: 70px; 
+  }
+  
+
+.about-container {
+  font-family: Arial, sans-serif;
+  max-width: 1600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffea00;
+}
+
+.point:nth-child(2) {
+  border: 2px solid #f10000; 
+  background-color: #ff8585; 
+  color: #060000; 
+}
+
+.point:nth-child(3) {
+  border: 2px solid #0037ff; 
+  background-color: #a0dcff;
+  color: #000000; 
+}
+
+.point:nth-child(4) {
+  border: 2px solid #66ff00; 
+  background-color: #a2ff99;
+  color: #000000; 
+}
+
+.point:nth-child(5) {
+  border: 2px solid #fb00ff; 
+  background-color: #fea6c6; 
+  color: #000000; 
+}
+.point:nth-child(6) {
+  border: 2px solid #00ffdd; 
+  background-color: #ccfff8; 
+  color: #000000; 
+}
+.point:nth-child(7) {
+  border: 2px solid #8800ff; 
+  background-color: #dfa0ff; 
+  color: #000000; 
+}
+
+h2 {
+  color: #333;
+  font-size: 35px;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+
+}
+
+p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-box {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: inline-block;
+  border: 2px solid #0077B5;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  width: 320px;
+  margin: 10px;
+  background-color: #ccfff8; 
+}
+
+h1 {
+  color: #333;
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
